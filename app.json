@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Book Diary",
+    "slug": "book-diary",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Для фото обложек книг",
+        "NSPhotoLibraryUsageDescription": "Для выбора фото обложек"
+      }
+    },
+    "android": {
+      "adaptiveIcon": { "backgroundColor": "#667eea" },
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+    },
+    "plugins": [
+      ["expo-image-picker", { "photosPermission": "Доступ к галерее для обложек", "cameraPermission": "Доступ к камере для обложек" }],
+      "expo-secure-store",
+      "expo-router"
+    ],
+    "scheme": "book-diary"
+  }
+}
