@@ -49,15 +49,21 @@ Join our community of developers creating universal apps.
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 
+# Создание проекта
+npx create-expo-app EmotionalCompass --template blank-typescript
+
+# Переход в папку
+cd EmotionalCompass
+
+# Установка зависимостей
 npm install zustand
-
 npx expo install firebase
-
 npx expo install @react-native-async-storage/async-storage
-
 npx expo install expo-secure-store expo-image-picker expo-image
-
+npx expo install expo-notifications expo-notifications
+npx expo install react-native-svg react-native-svg-charts
 npx expo install expo-linear-gradient
+npm install react-native-gesture-handler react-native-reanimated
 
-npx expo install react-native-gesture-handler react-native-reanimated
-
+# Запуск
+npx expo start -c
