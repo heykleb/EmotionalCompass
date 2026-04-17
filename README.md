@@ -50,8 +50,14 @@ Join our community of developers creating universal apps.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 
 npm install zustand
+
 npx expo install firebase
+
 npx expo install @react-native-async-storage/async-storage
+
 npx expo install expo-secure-store expo-image-picker expo-image
+
 npx expo install expo-linear-gradient
+
 npx expo install react-native-gesture-handler react-native-reanimated
+
