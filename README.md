@@ -165,6 +165,6 @@ npm install expo-symbols --legacy-peer-deps
 }
 
 # Запуск
-
+npm install react-native-reanimated@~4.1.1 react-native-worklets@0.5.1 --legacy-peer-deps
 npx expo start -c
 
