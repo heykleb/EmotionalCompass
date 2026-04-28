@@ -77,6 +77,7 @@ npm install expo-linking --legacy-peer-deps
 
 npm install @react-navigation/elements @react-navigation/bottom-tabs expo-haptics --legacy-peer-deps
 
+npm install expo-symbols --legacy-peer-deps
 
 # Запуск
 
