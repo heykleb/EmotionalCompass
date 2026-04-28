@@ -73,6 +73,8 @@ npx expo install expo-linear-gradient
 
 npm install react-native-gesture-handler react-native-reanimated
 
+npm install expo-linking --legacy-peer-deps
+
 npm install @react-navigation/elements @react-navigation/bottom-tabs expo-haptics --legacy-peer-deps
 
 
