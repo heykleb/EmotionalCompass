@@ -81,46 +81,87 @@ npm install expo-symbols --legacy-peer-deps
 
 
 {
+
   "name": "emotional-compass",
+  
   "version": "1.0.0",
+  
   "main": "expo-router/entry",
+
   "scripts": {
+  
     "start": "expo start",
+    
     "android": "expo start --android",
+    
     "ios": "expo start --ios",
+    
     "web": "expo start --web"
+    
   },
+  
   "dependencies": {
+  
     "@react-native-async-storage/async-storage": "2.2.0",
+    
     "@react-navigation/bottom-tabs": "^7.15.10",
+    
     "@react-navigation/elements": "^2.9.15",
+    
     "expo": "~54.0.0",
+    
     "expo-haptics": "~15.0.7",
+    
     "expo-image": "~3.0.11",
+    
     "expo-image-picker": "~17.0.11",
+    
     "expo-linear-gradient": "~15.0.8",
+    
     "expo-linking": "~8.0.12",
+    
     "expo-notifications": "~0.29.0",
+    
     "expo-router": "~6.0.0",
+    
     "expo-secure-store": "~15.0.8",
+    
     "expo-status-bar": "~2.0.0",
+    
     "expo-symbols": "~1.0.7",
+    
     "expo-web-browser": "~15.0.9",
+    
     "firebase": "^11.10.0",
+    
     "react": "19.1.0",
+    
     "react-native": "0.81.5",
+    
     "react-native-gesture-handler": "~2.20.0",
+    
     "react-native-reanimated": "~3.16.0",
+    
     "react-native-safe-area-context": "4.12.0",
+    
     "react-native-screens": "~4.4.0",
+    
     "react-native-svg": "15.12.1",
+    
     "zustand": "^5.0.3"
+    
   },
+  
   "devDependencies": {
+  
     "@babel/core": "^7.25.2",
+    
     "@types/react": "~19.1.10",
+    
     "typescript": "^5.3.3"
+    
   }
+  
 }
 
 # Запуск
